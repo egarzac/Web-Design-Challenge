@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>XPLOR</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+        <a class="navbar-brand" href="index.html">WEATHER XPLORER</a>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Plots
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="maxtemp.html">Max Temperature</a>
+                      <a class="dropdown-item" href="humidity.html">Humidity</a>
+                      <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                      <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="comparison.html">Comparison</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="data.html">Data</a>
+                  </li>
+                </ul>
+            </div>
+          </form>
+        </div>
+      </nav>
+
+      <main class="container">
+        <section id="main-vis">
+          <section id="figure">
+            <br>
+            <h1>MAXIMUM TEMPERATURE</h1>
+          <p>Are cities nearest to the Equator warmer or colder?</p>
+        </section>
+        <img src="WebVisualizations/assets/images/Fig1.png" alt="Max Temperature"></a></div>
+        <br>
+        <h2>Latitude vs. Temperature Plot Explanation</h1>
+        <p> We are comparing the maximum temperature in cites have based on their geographical location (North, Equator or South Hemisphere). Cities that are more to the south (Lat -60) or north (Lat 80) usually have lower max temperatures during the year. As cities approach the equator (Lat 0) the maximum tempretures increases meaning there are usually warmer cities.</p>
+      </main>
+
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    </body>
+
+    </html>
